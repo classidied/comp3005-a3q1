@@ -11,5 +11,6 @@ then install `psycopg2` so we can connect to the library
 3. `pip3 install psycopg2`  
 - edit `script.py` to include the correct parameters according to your database (database name, host, user, port)
 - to find this info, run `\conninfo` on the psql tool on pgAdmin in your database
-- in the virtual environment created through the first two commands, run `python3 script.py` and run any commands you'd like
+- in the virtual environment created through the first two commands, run `python3 script.py` and run any commands you'd like  
 
+Video demo link: https://youtu.be/6C0H_vUf5k8  
