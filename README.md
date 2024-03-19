@@ -1,7 +1,27 @@
 # comp3005-a3q1
 A python script to perform CRUD operations on a Postgres database through the command line
 
-Steps to compile and run:
+## Setting up the database
+Table creation on database:  
+```sql
+create table students (
+	student_id serial primary key,
+	first_name text not null,
+	last_name text not null,
+	email text unique not null,
+	enrollment_date date
+)
+```  
+
+Inserting data into the database:  
+```sql
+INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
+('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
+('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
+('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+```
+
+## Steps to compile and run the application: 
 
 - run `git clone https://github.com/classidied/comp3005-a3q1.git` in your terminal in a directory you'd like to download the application into
 - create a virtual environment for `psycopg2` to run in by running   
