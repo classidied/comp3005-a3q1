@@ -33,4 +33,4 @@ then install `psycopg2` so we can connect to the library
 - to find this info, run `\conninfo` on the psql tool on pgAdmin in your database
 - in the virtual environment created through the first two commands, run `python3 script.py` and run any commands you'd like  
 
-Video demo link: https://youtu.be/6C0H_vUf5k8  
+Video demo link: https://drive.google.com/file/d/1eWkI7AWk2LUIdS_dCxjUL1Vz2eeyIWW1/view?usp=drive_link 
